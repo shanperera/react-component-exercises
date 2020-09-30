@@ -1,0 +1,11 @@
+.username{
+    font-weight: bold;
+    padding: 0.25em;
+}
+
+.handle, .header-date{
+    font-weight: normal;
+    font-style: italic;
+    padding: 0.25em;
+    color: grey;
+}
