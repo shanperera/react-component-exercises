@@ -37,7 +37,7 @@ class CardTitle extends React.Component {
                 - {this.props.date}
               </Text>
             </Box>
-            <Box pad={{size: "xsmall", top: "xxsmall", left: "small"}} flex>
+            <Box pad={{size: "xsmall", top: "xxsmall", left: "small"}}>
               <Paragraph size="small" margin="none">
                 {this.props.paragraphText}
               </Paragraph>
