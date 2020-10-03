@@ -6,7 +6,7 @@ import CardFooter from "./components/socialcard/CardFooter";
 
 function App() {
   return (
-    <Grommet plain>
+    <Grommet>
       <Box align="center" justify="center">
         <Card animation="fadeIn" justify="between">
           <CardTitle

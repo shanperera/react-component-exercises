@@ -21,7 +21,13 @@ class CardBody extends React.Component {
         >
           {this.props.image}
         </Box>
-        <Box margin="none" direction="column" pad="small" background="light-1">
+        <Box
+          margin="none"
+          direction="column"
+          pad="small"
+          background="light-1"
+          border={{size: "xsmall", color: "light-3", side: "vertical"}}
+        >
           <Heading level="5" margin="none" pad="small">
             {this.props.titleText}
           </Heading>

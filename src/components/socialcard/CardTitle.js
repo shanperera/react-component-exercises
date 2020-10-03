@@ -12,18 +12,18 @@ import { Reactjs } from "grommet-icons";
 class CardTitle extends React.Component {
   render() {
     return (
-      <CardHeader gap="none" justify="stretch">
+      <CardHeader gap="none" justify="stretch" border={{color: "light-5", side: "bottom"}}>
         <Box fill direction="row-responsive">
-          <Box pad="small" align="center" justify="center" background="dark-2">
+          <Box pad="small" align="center" justify="center" background="light-3">
             <Avatar>
               <Reactjs size="large" color="plain"></Reactjs>
             </Avatar>
           </Box>
-          <Box flex direction="column" background="light-2">
+          <Box flex direction="column" background="light-1">
             <Box
               margin="none"
               direction="row-responsive"
-              pad="xsmall"
+              pad={{size: "xsmall", top: "xxsmall", left: "small"}}
               gap="xsmall"
             >
               <Text size="small" weight="bold">
@@ -37,7 +37,7 @@ class CardTitle extends React.Component {
                 - {this.props.date}
               </Text>
             </Box>
-            <Box pad="xsmall" flex>
+            <Box pad={{size: "xsmall", top: "xxsmall", left: "small"}} flex>
               <Paragraph size="small" margin="none">
                 {this.props.paragraphText}
               </Paragraph>
